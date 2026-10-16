@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#761b2b"><meta name="description" content="मातारानी के भजन — Hindi and Roman Hindi lyrics for our devotional gathering.">
+<title>जय माता दी · Bhajan Sangrah</title>
+<link rel="icon" href="assets/lotus.svg" type="image/svg+xml"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+<div id="invitation" class="invitation" role="dialog" aria-modal="true" aria-label="मातारानी के भजन का आमंत्रण" hidden>
+ <div class="invite-frame"><img id="invite-image" src="assets/invitation.jpeg" alt="मातारानी के भजन का आमंत्रण। 16 अक्टूबर, शाम 6 बजे से। बिल्डिंग C-15, C-16, रूम 5-0-1। संपर्क 50971 9224।"><div class="invite-controls"><button id="pause-invite" class="subtle">Keep reading</button><button id="enter" class="primary">भजन खोलें <span aria-hidden="true">↗</span></button></div><div class="timer" aria-hidden="true"><span id="timer-bar"></span></div></div>
+</div>
+<div id="app">
+<header class="topbar"><a href="#" class="brand" aria-label="Bhajan index"><img src="assets/lotus.svg" alt="" width="36" height="36"><span>जय माता दी<small>AN EVENING OF DEVOTION</small></span></a><div class="languages" role="group" aria-label="Lyrics language"><button data-language="hi" aria-pressed="true">हिन्दी</button><button data-language="roman" aria-pressed="false">English</button></div></header>
+<main id="main" tabindex="-1">
+<section id="index-view">
+ <div class="hero"><div class="hero-copy"><p class="eyebrow">॥ साथ गाएँ, माँ को मनाएँ ॥</p><h1>श्रद्धा के स्वर।<br><em>माँ के नाम।</em></h1><p class="intro">एक शाम भक्ति के नाम। अपने पसंदीदा भजन चुनें<br class="desktop"> और मिलकर माँ की महिमा गाएँ।</p><div class="event-pill"><span>16 अक्टूबर</span><i></i><span>शाम 6:00 बजे से</span></div><button id="show-invitation" class="text-button">आमंत्रण देखें <span aria-hidden="true">↗</span></button></div><div class="hero-art"><img src="assets/invitation.jpeg" alt="माँ दुर्गा की छवि, आमंत्रण से" class="durga-crop"><span class="art-label">॥ जय माता दी ॥</span></div></div>
+ <section class="collection" aria-labelledby="collection-title"><div class="section-heading"><div><p class="eyebrow">THE BHAJAN COLLECTION</p><h2 id="collection-title">भजन संग्रह <span>08</span></h2></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="भजन खोजें / Search" aria-label="Search bhajans"></label></div><div id="song-list" class="song-list"></div><p id="empty" hidden>No matching bhajans. Try another title or number.</p></section>
+ <footer>प्रेम से बोलो, जय माता दी <span aria-hidden="true">✦</span></footer>
+</section>
+<section id="reader-view" hidden aria-labelledby="song-title">
+ <div class="reader-toolbar"><a href="#" class="back-link">← <span id="index-label">सभी भजन</span></a><div class="font-controls" role="group" aria-label="Text size"><button id="smaller" aria-label="Decrease text size">A−</button><button id="larger" aria-label="Increase text size">A+</button></div></div>
+ <article class="lyric-sheet"><div class="song-meta"><span id="song-number"></span><a id="instagram" target="_blank" rel="noopener noreferrer">Instagram reference ↗</a></div><h1 id="song-title"></h1><div class="ornament" aria-hidden="true">✦</div><div id="lyrics"></div><p class="closing" aria-hidden="true">॥ जय माता दी ॥</p></article>
+ <p class="swipe-hint">← Swipe left: previous <span>·</span> Swipe right: next →</p>
+ <nav class="song-nav" aria-label="Song navigation"><button id="previous"><span aria-hidden="true">←</span><span id="previous-label">पिछला भजन</span></button><a href="#" id="position" aria-label="Return to song index"></a><button id="next"><span id="next-label">अगला भजन</span><span aria-hidden="true">→</span></button></nav>
+</section>
+<div id="status" class="status" role="status" aria-live="polite"></div>
+</main>
+</div>
+</body></html>

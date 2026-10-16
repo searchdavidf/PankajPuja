@@ -67,7 +67,7 @@ The root contains all static assets and `.nojekyll`, so no build workflow is req
 - Root directory: repository root
 - Environment variables: none
 
-In Vercel choose Add New → Project, import `Durga-puja`, confirm the intended team and the settings above, then deploy. No Vercel project or deployment has been created yet. Preview/production release remains a separate operation.
+In Vercel choose Add New → Project, import `PankajPuja`, confirm the intended team and the settings above, then deploy. No Vercel project or deployment has been created yet. Preview/production release remains a separate operation.
 
 ## Validation performed
 

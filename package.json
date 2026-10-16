@@ -1,0 +1,1 @@
+{"name":"durga-puja","version":"1.0.0","private":true,"description":"Hindi and Roman Hindi devotional bhajan reader","scripts":{"build":"node scripts/build.mjs","test":"node --test scripts/content.test.mjs"},"engines":{"node":">=20"}}
